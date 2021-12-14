@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Login</title>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
-    <footer>Pie de pagina</footer>
+
+    <form>
+        <h3>ACCESO</h3>
+
+        <input class="clsInput" type="text" id="usuario" placeholder="Usuario" required>
+        <input class="clsInput" type="password" id="password" placeholder="Password" required>
+
+        <input class="clsBoton" type="button"  value="Entrar" onclick="fnValidar()" id="btnEntrar">
+        <input class="clsBoton" type="button"  value="Cancelar" onclick="fnLimpiar()" id=btnCancelar>
+
+    </form>
+    <script src="js/app.js"></script>
+
 </body>
 </html>

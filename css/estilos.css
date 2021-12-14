@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+}
+
+form {
+
+    width: 20%;
+    margin: auto;
+    padding: 15px 15px;
+
+}
+
+form h3 {
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.clsInput {
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    font-size: 20px;
+
+}
+
+.clsBoton {
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+    font-size: 20px;
+
+}
